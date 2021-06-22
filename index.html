@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--navigation bar-->
-    <div id="nav-container">
+    <div class=" bg-info bg-gradient p-2">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -52,19 +52,41 @@
     </div>
 
     <!-- showcase section  -->
-    <section id="showcase-section">
-        <img src="./img/house.jpg" alt="beatiful house">
-        <div class="container">
-            <div>
-                <h1>The simple online home loan.</h1>
-                <p>Financial uncertainty is hard employees, and causes even</p>
-                <button>Our Services</button>
-            </div>
-            <div>
-                <form action="">
-                    <h1>How much you want?</h1>
-                    <p>We provide online instant loans.</p>
-                </form>
+    <section class="bg-info bg-gradient p-5 ">
+        <!-- <img id="showcase-background-image" src="./img/house.jpg" alt="beatiful house" class="img-fluid bg-transparent"> -->
+        <div class="container" id="showcase-text">
+            <div class="row">
+                <div class="col">
+                    <h1>The simple online home loan.</h1>
+                    <p>Financial uncertainty is hard employees, and causes even</p>
+                    <button>Our Services</button>
+                </div>
+                <div class="col">
+                    <form action="" class="bg-white p-5">
+                        <h1>How much you want?</h1>
+                        <p>We provide online instant loans.</p>
+                        <label for="">AMOUNT YOU WANT</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Amount</option>
+                            <option value="1">Category One</option>
+                            <option value="2">Category Two</option>
+                            <option value="3">Category Three</option>
+                        </select>
+
+                        <label for="">MONTY</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Month</option>
+                            <option value="1">Year</option>
+                            <option value="2">Week</option>
+                            <option value="3">Day3</option>
+                        </select>
+
+                        <p>You have pay <span>$0</span></p>
+                        <button>APPLY NOW</button>
+                        <p>We provide online instant cash loan.</p>
+                    </form>
+                </div>
+
             </div>
         </div>
     </section>
