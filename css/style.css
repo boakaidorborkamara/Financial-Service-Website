@@ -1,10 +1,12 @@
-#line{
-    width: 5px;
-    background-color: white;
-}
+
 
 #showcase-text{
     height: 100vh;
+    background-color: rgb(4, 119, 148);
+}
+
+#nav-area{
+    background-color: rgb(4, 119, 148);
 }
 
 #apply-btn{
