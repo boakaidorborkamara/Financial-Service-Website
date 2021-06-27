@@ -1,3 +1,12 @@
+#line{
+    width: 5px;
+    background-color: white;
+}
+
 #showcase-text{
-    /* background-image: url(../img/house.jpg); */
+    height: 100vh;
+}
+
+#apply-btn{
+    width: 100%;
 }
