@@ -29,5 +29,41 @@
 }
 
 #projection-section{
-    background-color: rgb(71, 190, 219);
+    background-color: rgb(169, 235, 252);
+}
+
+#project-img{
+    width: 80%;
+    background-color: yellow;
+}
+
+/* #discount-card{
+    width: 40%;
+    height: 40%;
+    background-color: green;
+    
+} */
+
+#hand-icon{
+    font-size: 4em;
+}
+
+#lock-icon{
+    font-size: 4em;
+}
+
+#clock-icon{
+    font-size: 4em;
+}
+
+#cash-icon{
+    font-size: 4em;
+}
+
+#loan-section{
+    background-color: rgb(248, 232, 232);
+}
+
+#loan-image{
+    width: 80%;
 }
