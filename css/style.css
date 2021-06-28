@@ -12,3 +12,22 @@
 #apply-btn{
     width: 100%;
 }
+
+#car-icon{
+    font-size: 5em;
+    color: rgb(4, 119, 148);
+}
+
+#house-icon{
+    font-size: 5em;
+    color: rgb(4, 119, 148);
+}
+
+#office-icon{
+    font-size: 5em;
+    color: rgb(4, 119, 148);
+}
+
+#projection-section{
+    background-color: rgb(71, 190, 219);
+}
