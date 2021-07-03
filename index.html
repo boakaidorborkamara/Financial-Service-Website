@@ -15,60 +15,68 @@
 </head>
 <body>
     <!--navigation bar-->
-    <div class=" p-2 text-light" id="nav-area">
+    <section class=" p-2 text-light" id="nav-area">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white fw-bolder" href="#">EasyLo.</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item px-3">
-                    <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Services</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active btn-success text-white px-3 py-2" aria-current="page" href="#">Apply for Loan</a>
-                    </li>
-                </ul>
-                <!-- <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white fw-bolder fs-3" href="index.html">
+                        <!-- <i class="fas fa-warehouse text-red"></i> -->
+                        EasyLo.
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ps-2">
+                        <a class="nav-link active text-white fw-bold py-3" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active text-white fw-bold py-3" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active text-white fw-bold py-3" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active text-white fw-bold py-3" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active text-white fw-bold  py-3" aria-current="page" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active btn-success text-white px-5 py-3 small" aria-current="page" href="#">Apply for Loan</a>
+                        </li>
+                    </ul>
+            
+                    </div>
                 </div>
-            </div>
             </nav>
         </div>
-    </div>
+    </section>
 
     <!-- showcase section  -->
-    <section class=" jumbotron bg-cover p-5 " id="showcase-text">
+    <section class="p-5 " id="showcase">
         <!-- <img id="showcase-background-image" src="./img/house.jpg" alt="beatiful house" class="img-fluid bg-transparent"> -->
         <div class="container" >
-            <div class="row">
-                <div class="col">
-                    <h1 class="fs-1 fw-bolder text-white">The simple <br> online home <br> loan.</h1>
-                    <p class="fs-4 pt-3 pb-3 text-white">Financial uncertainty is hard on <br> employees, and causes even</p>
+            <div class="row ">
+                <!-- left side of showcase section  -->
+                <div class="col-lg-7 col-md-7 col-sm-12 mb-sm-5 mb-xs-5 ">
+                    <h1 class=" fw-bolder text-white" id="section-right-heading">
+                        The simple <br> online home <br> loan.
+                    </h1>
+                    <hr id="line-break-in-left-section">
+                    <p class="fs-4 pt-3 pb-3 text-white lead">Financial uncertainty is hard on <br> employees, and causes even</p>
                     <button class="btn btn-outline-light px-5 btn-outline-light py-3 fw-bold">Our Services</button>
                 </div>
-                <div class="col">
-                    <form action="" class="bg-white p-5">
-                        <h1 class="text-center">How much you want?</h1>
-                        <p class="text-center">We provide online instant loans.</p>
-                        <label for="" class="small mb-3">AMOUNT YOU WANT</label>
+
+                <!-- right side of showcase section  -->
+                <div class="col-lg-5 col-md-5 col-sm-12 card p-5 ">
+                        <h2 class="text-center fw-bolder">How much you want?</h2>
+                        <p class="text-center mb-3">We provide online instant loans.</p>
+                        <div class="d-flex justify-content-evenly mb-3 ">
+                            <hr id="line-break-in-right-section">
+                        </div>
+                        <label for="" class="small mb-3 text-muted">AMOUNT YOU WANT</label>
                         <select class="form-select mb-3" aria-label="Default select example">
                             <option selected>Select Amount</option>
                             <option value="1">Category One</option>
@@ -76,7 +84,7 @@
                             <option value="3">Category Three</option>
                         </select>
 
-                        <label for="" class="small mb-2">MONTY</label>
+                        <label for="" class="small mb-2 text-muted">MONTY</label>
                         <select class="form-select mb-3" aria-label="Default select example">
                             <option selected>Select Month</option>
                             <option value="1">Year</option>
@@ -85,9 +93,9 @@
                         </select>
 
                         <p class="small">You have pay <span class="fs-3 fw-bold">$0</span></p>
-                        <button class="btn-success text-center p-2 mb-3" id="apply-btn">APPLY NOW</button>
+                        <button class="btn-success text-center p-2 mb-3 border-0" id="apply-btn">APPLY NOW</button>
                         <p class="text-center">We provide online instant cash loan.</p>
-                    </form>
+                    
                 </div>
 
             </div>
@@ -366,5 +374,7 @@
             </p>
         </div>
     </footer>
+
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

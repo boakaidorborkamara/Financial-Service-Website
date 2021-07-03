@@ -1,17 +1,36 @@
-
-
-#showcase-text{
-    height: 100vh;
-    background-color: rgb(4, 119, 148);
-}
-
+/* navigation  */
 #nav-area{
-    background-color: rgb(4, 119, 148);
+    background-color: rgb(12, 171, 211);
 }
 
-#apply-btn{
-    width: 100%;
+/* showcase section  */
+#showcase{
+    background-color: rgb(2, 77, 39);
 }
+
+#section-right-heading{
+    font-size: 3em;
+}
+
+#line-break-in-left-section{
+    height: 4px;
+    background-color: white;
+    width: 20%;
+    border: none;
+}
+
+#line-break-in-right-section{
+    height: 4px;
+    background-color: rgb(2, 77, 39);
+    width: 40%;
+    /* border: none; */
+}
+
+
+
+/* #apply-btn{
+    width: 100%;
+} */
 
 #car-icon{
     font-size: 5em;
