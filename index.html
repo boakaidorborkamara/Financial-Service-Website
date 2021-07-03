@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item ps-2">
                         <a class="nav-link active text-white fw-bold py-3" aria-current="page" href="#">Home</a>
                         </li>
@@ -108,11 +108,15 @@
             <h1 class="h1 fw-bolder pt-5 text-center">
                 Solutions for every business need.
             </h1>
+            <div class="d-flex justify-content-evenly">
+                <hr id="line-break-in-solution-section">
+            </div>
             <p class="text-center pt-3 pb-5">
                 The brochure must grap a viewer's attention and hold it long <br> enough to deliver the pertinent information.
             </p>
+            
             <div class="row pt-5 pb-5">
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <span class="material-icons py-4" id="house-icon">
                             other_houses
@@ -125,7 +129,7 @@
                     </p>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <span class="material-icons py-4" id="car-icon">
                             directions_car_filled
@@ -138,7 +142,7 @@
                     </p>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <span class="material-icons py-4" id="office-icon">
                             maps_home_work
@@ -159,17 +163,18 @@
     <section class="py-5" id="projection-section">
         <div class="container py-5">
             <div class="row">
-                <div class="col">
-                    <div id="project-img">
-                        <img src="./img/programmer.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div id="discount-card">
-                        <h1>99%</h1>
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-sm-4 me-lg-5 ms-md-5" id="project-img">
+                    <div>
+                        <img src="./img/pic1.jpg" class="img-fluid" alt="">
+                    
+                    <!-- <div class="text-white text-center" id="discount-tag">
+                        <h1 class="fw-bolder">99%</h1>
                         <p>Customer Satifaction</p>
+                    </div> -->
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-sm-4 ms-lg-5 ms-md-5">
                     <h4 class="fw-bolder fs-1 mb-5">
                         We guide projects and <br> organizations in making <br> the right decisions.
                     </h4>
@@ -183,7 +188,7 @@
                             <li>Number of customers</li>
                         </ul>
                     </div>
-                    <button class="btn-success px-5 py-3 mt-3">
+                    <button class="btn-success border-0 px-5 py-3 mt-3">
                         LEARN MORE
                     </button>
                 </div>
@@ -199,7 +204,7 @@
                 enough to deliver the pertinent information.
             </p>
             <div class="row">
-                <div class="col">
+                <div class="col-lg col-md-4 col-sm-12">
                     <div class="text-center">
                         <span class="material-icons text-center mb-4" id="hand-icon">
                             touch_app
@@ -210,7 +215,7 @@
                         Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-lg col-md-4 col-sm-12">
                     <div class="text-center">
                         <span class="material-icons text-center mb-4" id="lock-icon">
                             lock_clock
@@ -221,7 +226,7 @@
                         Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-lg col-md-4 col-sm-12">
                     <div class="text-center">
                         <span class="material-icons text-center mb-4" id="clock-icon">
                             alarm
@@ -232,7 +237,7 @@
                         Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-lg col-md-4 col-sm-12">
                     <div class="text-center">
                         <span class="material-icons" id="cash-icon">
                             request_quote
@@ -252,7 +257,7 @@
     <section class="py-5" id="loan-section">
         <div class="container py-5">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5 mb-md-5">
                     <h1 class="fw-bolder pb-4">Get loan in 3 easy steps</h1>
                     <p>
                         Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost. The brochure must grab a viewer’s attention and hold it long enough to deliver the pertinent information.
@@ -269,9 +274,9 @@
                     </button>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-sm-5 mt-md-5">
                     <div id="loan-image">
-                        <img src="./img/programmer.jpg" class="img-fluid" alt="">
+                        <img src="./img/pic2.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -279,9 +284,47 @@
     </section>
 
     <!-- testimonial section  -->
-    <!-- <section>
+    <section class="h-80%" id="carousel-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner px-5">
+              <div class="carousel-item active p-5 w-80 h-100">
+                <h2 class="text-left text-white fw-bolder">First label</h2>
+                <p class=" text-left text-white">
+                    "I had 15+ folks reach out to me on EasyLo. I was completely blown away by how easy it's been to reach these prospective buyers. We weren't necessarily looking to sell but EasyLo has been A+. From start to finish, we were acquired within 30-days at full asking price."
+                </p>
+              </div>
 
-    </section> -->
+              <div class="carousel-item p-5 w-80 h-100">
+                <h2 class="text-left text-white fw-bolder">Second label</h2>
+                <p class=" text-left text-white">
+                    "I had 15+ folks reach out to me on EasyLo. I was completely blown away by how easy it's been to reach these prospective buyers. We weren't necessarily looking to sell but EasyLo has been A+. From start to finish, we were acquired within 30-days at full asking price."
+                </p>
+              </div>
+
+              <div class="carousel-item p-5 w-80 h-100">
+                <h2 class="text-left text-white fw-bolder">Third label</h2>
+                <p class=" text-left text-white">
+                    "I had 15+ folks reach out to me on EasyLo. I was completely blown away by how easy it's been to reach these prospective buyers. We weren't necessarily looking to sell but EasyLo has been A+. From start to finish, we were acquired within 30-days at full asking price."
+                </p>
+              </div>
+              
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
 
     <!-- news section  -->
     <section class="py-5">
@@ -290,30 +333,30 @@
                 Latest News
             </h1>
             <div class="row">
-                <div class="card col m-3" style="width: 18rem;">
-                    <img src="./img/programmer.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                <div class="card col-lg-4 col-md-6 mb-4">
+                    <img src="./img/pic5.jpg" class="card-img-top img-fluid" alt="...">
+                    <p class="small text-muted pt-4">20 March 2021</p>
+                    <div class="">
+                      <h5 class="card-title fw-bolder">What are my options worth and the cost to exercise</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
 
-                <div class="card col m-3" style="width: 18rem;">
-                    <img src="./img/programmer.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                <div class="card col-lg-4 col-md-6 mb-4">
+                    <img src="./img/pic5.jpg" class="card-img-top img-fluid" alt="...">
+                    <p class="small text-muted pt-4">20 March 2021</p>
+                    <div class="">
+                      <h5 class="card-title fw-bolder">Should I exercise now or later? How can I afford it?</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
 
-                <div class="card col m-3" style="width: 18rem;">
-                    <img src="./img/programmer.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                <div class="card col-lg-4 col-md-6 mb-4">
+                    <img src="./img/pic5.jpg" class="card-img-top img-fluid" alt="...">
+                    <p class="small text-muted pt-4">20 March 2021</p>
+                    <div class="">
+                      <h5 class="card-title fw-bolder">I own my shares - can I get liquidity now without selling?</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -321,20 +364,38 @@
     </section>
 
     <!-- footer nav  -->
-    <section class="py-5">
+    <section class="py-5" id="footer-nav">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-4">
                     <h1>EasyLo</h1>
                     <p>
                         Tools such as a profit simulator <br> and tax calculator show the value <br> of your stock options and exercise <br> cost.
                     </p>
                 </div>
 
-                <div class=" col row">
-                    <div class="col">
-                        <h1>Quick Links</h1>
-                        <ul>
+                <div class=" col-lg-8 row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="fw-bolder">Quick Links</h3>
+                        <ul class="text-muted list-unstyled">
+                            <li>
+                                <a href="">Work</a>
+                            </li>
+                            <li>
+                                <a href="">Services</a>
+                            </li>
+                            <li>
+                                <a href="">Products</a>
+                            </li>
+                            <li>
+                                <a href="">Tips & TRicks</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="fw-bolder">Solutions</h3>
+                        <ul class="text-muted list-unstyled">
                             <li>Work</li>
                             <li>Services</li>
                             <li>Products</li>
@@ -342,24 +403,14 @@
                         </ul>
                     </div>
 
-                    <div class="col">
-                        <h1>Quick Links</h1>
-                        <ul>
-                            <li>Work</li>
-                            <li>Services</li>
-                            <li>Products</li>
-                            <li>Tips & Tricks</li>
-                        </ul>
-                    </div>
-
-                    <div class="col">
-                        <h1>Quick Links</h1>
-                        <ul>
-                            <li>Work</li>
-                            <li>Services</li>
-                            <li>Products</li>
-                            <li>Tips & Tricks</li>
-                        </ul>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="fw-bolder">Newsletter</h3>
+                        <p>Subscribe newsletter to get updates.</p>
+                        <form class="d-flex">
+                            <input type="text" name="" id="" placeholder="Enter your email" class="p-2">
+                            <button class="btn btn-outline-success" type="submit">Submit</button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
@@ -367,10 +418,10 @@
     </section>
 
     <!-- main footer  -->
-    <footer>
+    <footer id="copyright">
         <div class="container border-top py-3">
             <p class="text-center">
-                Copyright ©2021 All rights reserved | Bkay Codes
+                Copyright ©2021 All rights reserved | Coded By <span class="fw-bold">Bkay</span> 
             </p>
         </div>
     </footer>

@@ -3,10 +3,19 @@
     background-color: rgb(12, 171, 211);
 }
 
+/* #navbarSupportedContent{
+    background-color: rgb(2, 77, 39);
+} */
+
 /* showcase section  */
 #showcase{
-    background-color: rgb(2, 77, 39);
+    background-color: rgb(12, 171, 211);
+    background-image: url(../img/house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 #section-right-heading{
     font-size: 3em;
@@ -26,11 +35,13 @@
     /* border: none; */
 }
 
-
-
-/* #apply-btn{
-    width: 100%;
-} */
+/* solution section  */
+#line-break-in-solution-section{
+    height: 4px;
+    background-color: rgb(2, 77, 39);
+    width: 20%;
+    /* border: none; */
+}
 
 #car-icon{
     font-size: 5em;
@@ -47,21 +58,24 @@
     color: rgb(4, 119, 148);
 }
 
+
+/* projection section  */
 #projection-section{
-    background-color: rgb(169, 235, 252);
+    background-color: rgb(223, 245, 253);
 }
 
 #project-img{
-    width: 80%;
-    background-color: yellow;
+    width: 30%;
+    height: 50%;
+    /* background-color: yellow; */
 }
 
-/* #discount-card{
+#discount-tag{
     width: 40%;
     height: 40%;
-    background-color: green;
-    
-} */
+    background-color: rgb(2, 77, 39);
+    padding: 20px;
+}
 
 #hand-icon{
     font-size: 4em;
@@ -80,7 +94,7 @@
 }
 
 #loan-section{
-    background-color: rgb(248, 232, 232);
+    background-color: rgb(223, 245, 253);
 }
 
 #loan-image{
@@ -89,4 +103,17 @@
 
 .car-img{
     height: 40%;
+}
+
+/* testimonial section  */
+#carousel-section{
+    background-color: rgb(2, 77, 39);
+}
+
+#footer-nav{
+    background-color: rgb(223, 245, 253);
+}
+
+#copyright{
+    background-color: rgb(223, 245, 253);
 }
